@@ -1,0 +1,10 @@
+package model;
+
+public enum CellState {
+
+    FILLED,
+    EMPTY,
+    BlOCKED
+}
+//BLOCKED: WE CAN IMPLEMENT IN FUTURE
+// WHERE CERTAIN CELLS ARE NOT ACCESSIBLE FOR ANY ANOTHER USER
