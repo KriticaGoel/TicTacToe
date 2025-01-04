@@ -5,6 +5,14 @@ public abstract class Players {
     private String name;
     private PlayerType type;
     private Symbol symbol;
+    public abstract Move makeMove(Board board);
+
+    public Players(Integer id, String name, PlayerType type,Symbol symbol){
+        this.id = id;
+        this.name = name;
+        this.type = type;
+        this.symbol = symbol;
+    }
 
     public Integer getId() {
         return id;
